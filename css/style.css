@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Nabla&family=Raleway:wght@300&family=Tangerine:wght@700&display=swap');
+body{
+  overflow-x: hidden; 
+  background-color: rgb(255, 225, 0);
+}
+.head1{
+    width: 100%;
+    background-color: rgb(255, 225, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    font-family: cursive;
+}
+.head2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    padding: 1px;
+    margin-top: 0;
+}
+.sw{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-left: 30px;
+    margin-bottom: 0;
+    font-family: 'Nabla', cursive;
+    color:rgb(236, 236, 18);
+}
+.fash{
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 15px;
+    text-align: end;
+    margin-top: 0;
+    color: #fff;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 15px;
+    color: rgba(255, 255, 255, 0.595);
+}
+.head3{
+    letter-spacing: 3px;
+    text-align: start;
+    margin-top: 8px;
+    padding: 3px;
+    border-bottom: solid black;
+}
+.head4{
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.search{
+    position: absolute;
+    right: 2%;
+    border-bottom: solid rgba(0, 0, 0, 0.338);
+    padding: 3px;
+}
+.search input[type="text"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: sans-serif;
+}
+.body1{
+    width: 100%;
+    height: 300px;
+    color: #fff;
+    background: url(../images/shoes-g194d56588_1920.jpg) center no-repeat;
+    margin-top: 0;
+    border-bottom-left-radius: 150px ;
+    border-bottom: double rgb(126, 126, 15);
+}
+.text1{
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 10px;
+   
+}
+.text1,.text2{
+    text-shadow: 3px 3px black;
+}
+.text2{
+    letter-spacing: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+    width: 600px;
+    padding-left: 5px;
+    margin-left: 30px;
+    margin-top: 0;
+}
+.body3, .body5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    background-color: #fff;
+    height: 280px;
+    width: 280px;
+    margin-left: 1px;
+    border: solid yellow;
+}
+img{
+    height: 150px; ;
+    width: 210px;
+}
+.text3{
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.text4{
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-size: medium;
+    padding: 10px;
+    text-align: center;
+}
+.text5{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding: 5px;
+    color: rgba(117, 39, 191, 0.922);
+    font-weight: bold;
+}
+span{
+    font-size: 10px;
+    margin-right: 30px;
+}
+.id{
+    letter-spacing: 10px;
+    width: 15px;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+.icon1{
+    margin-top: 30px;
+}
+.icon2{
+    margin-top: 30px;
+    margin-right: 30px;
+    letter-spacing: 20px;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+.text4,.head3{
+    font-family: 'Edu QLD Beginner', cursive;
+}
