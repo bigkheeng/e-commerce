@@ -11,7 +11,7 @@ body{
     height: 30px;
     font-weight: bold;
     margin-top: 0;
-    font-family: cursive;
+    font-family: sans-serif;
 }
 .head2{
     display: flex;
