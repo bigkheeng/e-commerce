@@ -165,7 +165,7 @@ h2{
 .text4,.head3{
     font-family: 'Edu QLD Beginner', cursive;
 }
-@media(max-width : 700px){
+/* @media(max-width : 700px){
     .body3, .body5{
         flex-direction: column;
     }
@@ -217,5 +217,61 @@ h2{
         margin-top: 0;
         margin-right: 30px;
         height: 100px;
+    } 
+} */
+@media(max-width : 700px){
+    .body3, .body5{
+        flex-direction: column;
     }
-}
+    .box{
+        width: 100%;
+        text-align: center;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .head3{
+        margin-left: 20px;
+    }
+    .text1{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+    .text2{
+        font-size: 14px;
+        width: 70%;
+    }
+    .sw{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .fash{
+        font-size: 10px;
+        margin-right: 20px;
+    }
+   
+    .icon2{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        margin-right: 100px;
+        margin-left: 0;
+        text-align:end;
+        margin-top: 0;
+        height: 100px;
+        background-color: #fff;
+    }
+    .icon1{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-between;
+        margin-left: 0;
+        text-align:start;
+        margin-top: 0;
+        margin-right: 30px;
+        height: 100px;
+        background-color: blueviolet;
+
+    } 
+} 
