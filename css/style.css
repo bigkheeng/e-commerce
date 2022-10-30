@@ -24,6 +24,10 @@ body{
     -moz-box-shadow:0 4px 6px -6px #222;
     box-shadow: 0 4px 6px -6px #222; 
 }
+header{
+    position: sticky;
+    top: 0;
+}
 .logo{
     padding: 1px;
     margin-top: 0;
@@ -274,4 +278,11 @@ h2{
         margin-right: 30px;
         height: 100px;
     } 
-} 
+    header, .body1,.head1,.head2,.head3,.head4,.body2,.body3,.body5,.body1,.body4{
+        overflow: hidden;
+    }
+}
+.pbody1{
+    text-align: center;
+    width: 100%;
+}
